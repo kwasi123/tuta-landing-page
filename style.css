@@ -67,15 +67,30 @@ section {
   justify-content: center;
 }
 
-.section-content {
-  width: 20%;
-  margin: 20px 30px;
-  padding: 20px 20px;
-  text-align: center;
-  background: rgb(240, 240, 240);
-  height: auto;
-  border-radius: 5px;
-  word-wrap: break-word;
+@media screen and (max-width: 749px) {
+  .section-content {
+    width: 60%;
+    margin: 20px 30px;
+    padding: 20px 20px;
+    text-align: center;
+    background: rgb(240, 240, 240);
+    height: auto;
+    border-radius: 5px;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .section-content {
+    width: 20%;
+    margin: 20px 30px;
+    padding: 20px 20px;
+    text-align: center;
+    background: rgb(240, 240, 240);
+    height: auto;
+    border-radius: 5px;
+    word-wrap: break-word;
+  }
 }
 
 .section-content h3 {
@@ -83,7 +98,7 @@ section {
 }
 
 .section-footer {
-  width: 60%;
+  width: 50%;
   border: 2px solid black;
   margin: 5px auto;
   text-align: center;
